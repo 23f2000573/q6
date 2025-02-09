@@ -13,4 +13,4 @@ jobs:
           echo "This is my first actions workflow. This is done for TDS week-2 question 7" >> abc.txt
           git add abc.txt
           git commit -m "Update" || exit -
-        git push origin main
+          git push origin main
